@@ -1,0 +1,145 @@
+<!--
+	コードが稚拙なのは許してや、城之内・・・
+　　　,,,,,,,､､､､,,,,,,,
+　　（ﾐﾐﾐｼYﾐｼ,彡）
+　　|f''　　''''　 ''ヾ|
+　　|ﾐ ,,,,,,､　,,,,,,, ﾐ|
+　　}|´立）　 立｀|{
+　 （'l　 　, i ､　　l'）
+　 　l 　 ' ｀_´,丶l
+　　 ﾄ　 .´ニ　' ｲ
+　 　| . ＼ー／　＼
+-->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Poison Window</title>
+	<meta property="og:title" content="Poison Window">
+	<meta property="og:type" content="article">
+	<meta property="og:image" content="https://utzmie.github.io/poison-window/photo-poison.jpg">
+	<meta property="og:url" content="https://utzmie.github.io/poison-window/">
+	<meta property="og:description" content="ポイズン">
+	<meta property="og:site_name" content="Poison Window">
+	<meta property="og:locale" content="ja_JP">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Poison Window">
+	<meta name="twitter:description" content="ポイズン">
+	<meta name="twitter:image" content="https://utzmie.github.io/poison-window/photo-poison.jpg">
+	<link rel="stylesheet" href="./style.css">
+	<style>
+	
+		.images{
+			position: relative;
+		}
+		.image-container {
+			background: url("./bg.png");
+			/*width: 1269px;*/
+			/*height: 540px;*/
+			height: 0;
+			max-width: 100%;
+			padding-top: 42.55%;
+			position: relative;
+			background-size: 100% auto;
+			z-index: 2;
+		}
+		.poison-image {
+			position: absolute;
+			z-index: 0;
+			top: 0;
+			left: 0;
+			width: 14%;
+			overflow: hidden;
+			transform: rotate(-3deg);
+			
+		}
+		.poison-image img {
+			width: 100%;
+			animation: scale .2s infinite alternate;
+		}
+		.poison-image--1 {
+			top: 2%;
+			left: 28%;
+
+		}
+		.poison-image--2 {
+			top: 2%;
+			left: 43%;
+
+		}
+		.poison-image--3 {
+			top: 2%;
+			left: 58%;
+
+		}
+		.poison-image--4 {
+			top: 2%;
+			left: 73%;
+
+		}
+		.poison-image--5 {
+			top: 34.5%;
+			left: 13%;
+		}
+		.poison-image--6 {
+			top: 34.5%;
+			left: 28%;
+		}
+		.poison-image--7 {
+			top: 34.5%;
+			left: 43%;
+		}
+		.poison-image--8 {
+			top: 34.5%;
+			left: 58%;
+		}
+		.poison-image--9 {
+			top: 34.5%;
+			left: 73%;
+		}
+
+		@keyframes scale {
+			0% {
+				transform: scale(1);
+			}
+			100% {
+				transform: scale(1.5);
+			}
+		}
+
+	</style>
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-WKMH9W');</script>
+	<!-- End Google Tag Manager -->
+</head>
+<body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WKMH9W"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	<div class="container">
+		<h1>Poison Window</h1>
+
+		<div class="images">
+			<div class="image-container"></div>
+			<div class="poison-image poison-image--1"><img src="photo-poison.jpg" alt=""></div>
+			<div class="poison-image poison-image--2"><img src="photo-poison.jpg" alt=""></div>
+			<div class="poison-image poison-image--3"><img src="photo-poison.jpg" alt=""></div>
+			<div class="poison-image poison-image--4"><img src="photo-poison.jpg" alt=""></div>
+			<div class="poison-image poison-image--5"><img src="photo-poison.jpg" alt=""></div>
+			<div class="poison-image poison-image--6"><img src="photo-poison.jpg" alt=""></div>
+			<div class="poison-image poison-image--7"><img src="photo-poison.jpg" alt=""></div>
+			<div class="poison-image poison-image--8"><img src="photo-poison.jpg" alt=""></div>
+			<div class="poison-image poison-image--9"><img src="photo-poison.jpg" alt=""></div>
+
+		</div><!-- /face -->
+
+</script>  
+</body>
+</html>
